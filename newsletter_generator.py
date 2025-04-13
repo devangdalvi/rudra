@@ -29,21 +29,3 @@ def generate_newsletter(user_name, articles, interests):
     # Step 6: Write to a markdown file
     write_newsletter_to_file(newsletter_content, filename)
     print(f"✅ Newsletter generated for {user_name} and saved to {filename}")
-
-
-# ✅ Main execution block
-if __name__ == "__main__":
-    # Load user profiles from JSON
-    with open("user_profiles.json", "r") as file:
-        user_profiles = json.load(file)
-
-    # Sample articles (you can replace this with your own fetched ones)
-    articles = [
-        {"title": "AI in Healthcare", "summary": "AI is revolutionizing healthcare...", "tags": "AI, healthcare", "link": "https://example.com/ai-healthcare"},
-        {"title": "Blockchain for Finance", "summary": "Blockchain is transforming finance...", "tags": "blockchain, finance", "link": "https://example.com/blockchain-finance"},
-        {"title": "F1 and AI Meet", "summary": "AI is now helping analyze F1 races...", "tags": "F1, AI", "link": "https://example.com/f1-ai"}
-    ]
-
-    # ✅ Loop through each user in the JSON
-    for user in user_profiles.values():
-        generate_newsletter(user["name"], articles, user["interests"])
