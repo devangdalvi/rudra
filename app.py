@@ -3,7 +3,7 @@ import os
 import markdown
 from newsletter_generator import generate_newsletter
 import json
-app = Flask(__name__)
+app = Flask(__name__,template_folder= "./templates")
 
 NEWSLETTER_DIR = '.'  # All newsletters are in root
 
