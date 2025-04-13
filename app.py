@@ -39,5 +39,5 @@ def view_newsletter(filename):
     except FileNotFoundError:
         return f"<h2>Newsletter '{filename}' not found.</h2>", 404
 
-#if __name__ == '__main__':
-    #app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
