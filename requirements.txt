@@ -1,9 +1,2 @@
 markdown
-feedparser
-spacy
-requests
 flask
-scikit-learn
-numpy
-pandas
-nltk
