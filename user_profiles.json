@@ -1,0 +1,29 @@
+{
+    "Alex Parker": {
+      "name": "Alex Parker",
+      "interests": ["AI", "cybersecurity", "blockchain", "startups", "programming"],
+      "preferred_sources": ["TechCrunch", "Wired Tech", "Ars Technica", "MIT Tech Review"]
+    },
+    "Priya Sharma": {
+      "name": "Priya Sharma",
+      "interests": ["Global markets", "startups", "fintech", "cryptocurrency", "economics"],
+      "preferred_sources": ["Bloomberg", "Financial Times", "Forbes", "CoinDesk"]
+    },
+    "Marco Rossi": {
+    "name": "Marco Rossi",
+    "interests": ["robotics", "space exploration", "AI", "emerging tech"],
+    "preferred_sources": ["MIT Tech Review", "Wired Tech", "Futurism"]
+  },
+  "Lisa Thompson": {
+    "name": "Lisa Thompson",
+    "interests": ["biotech", "healthcare", "science", "wellness"],
+    "preferred_sources": ["Nature", "Science Daily", "STAT News"]
+  },
+  "David Martinez": {
+    "name": "David Martinez",
+    "interests": ["sports", "entertainment", "gaming", "F1"],
+    "preferred_sources": ["ESPN", "IGN", "Formula 1", "Polygon"]
+  }
+    
+  }
+  
